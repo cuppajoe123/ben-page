@@ -10,7 +10,7 @@
   "author": "Aeshus (Thomas) <87614336+Aeshus@users.noreply.github.com>",
   
   "chrome_url_overrides": {
-    "newtab": "src/html/homepage.html"
+    "newtab": "src/html/index.html"
   },
   "homepage_url": "https://github.com/bfhs-open/Benpage"
 }
