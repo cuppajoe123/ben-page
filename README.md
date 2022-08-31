@@ -1,6 +1,8 @@
 # Benpage
 The new(?) extension that will be forcefully preloaded on everyone's chrome
 
+Original: [Homepage](https://sites.google.com/bfhsla.org/startpage/home)
+
 ## Installation (Local Dev / Testing)
 
 Go to `chrome://extensions`
