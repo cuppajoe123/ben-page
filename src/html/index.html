@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ben Franklin Homepage</title>
-	<link rel="stylesheet" href="../css/index.css">
-	<script src="../js/index.js" defer></script>
-</head>
-<body>
-<p>Hi</p>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ben Franklin Homepage</title>
+		<link rel="stylesheet" href="../css/index.css">
+		<script src="../js/index.js" defer></script>
+	</head>
+	<body>
+	
+		<div class="header">
+			<ul><a href="index.html"><b>Home</b></a></ul>
+			<ul><a href="settings.html">Settings</a></ul>
+		</div>
+		
+		<div class="logoBar">
+			<img id="logo" src="../../assets/logo.png">
+		</div>
+		
+		<form class="search" action="https://google.com/search" method=GET>
+			<input name="hl" value="en" style="display: none;">
+			<input type="text" name="q" placeholder="Search with Google" id="searchBar" autocomplete="off">
+			<input type="submit" style="display: none;">
+		</form>
+				
+		<div class="columns">
+			<div id="schedule">
+				<div id="colHeader">Today's Schedule:</div>
+				<hr>
+				<div id="colContent">(placeholder)</div>
+			</div>
+			<div id="icons">
+				<div id="colHeader">Buttons:</div>
+				<hr>
+				<div id="colContent">(placeholder)</div>
+			</div>
+			<div id="links">
+				<div id="colHeader">Links:</div>
+				<hr>
+				<div id="colContent">(placeholder)</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+		
+		</div>
+	</body>
 </html>
