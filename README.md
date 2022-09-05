@@ -6,7 +6,7 @@ Original: [Homepage](https://sites.google.com/bfhsla.org/startpage/home)
 
 ## Installation (Local Dev / Testing)
 
-Go to `chrome://extensions`
-At the top right, enable "Developer Mode"
-Then, click "load unpacked" and select the Benpage folder.
-Now it should be loaded (and should hot-reload during development).
+1. Go to `chrome://extensions`.  
+2. At the top right, enable "Developer Mode".  
+3. Then, click "load unpacked" and select the Benpage folder.  
+4. Now it should be loaded (and should hot-reload during development).  
