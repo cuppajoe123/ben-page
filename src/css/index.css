@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  background-color: rgba(71,125,73,1);
+  background-color: rgba(71, 125, 73, 1);
   height: 10%;
   justify-content: right;
   padding-right: 1.5em;
@@ -8,8 +8,7 @@
 }
 
 body {
-  background-color: rgba(71,125,73,1);
-  
+  background-color: rgba(71, 125, 73, 1);
 }
 
 .header > ul > a {
@@ -32,7 +31,7 @@ body {
   text-align: center;
   flex: 1;
   padding-bottom: 1em;
-  background-color: rgba(51,106,62,1);
+  background-color: rgba(51, 106, 62, 1);
   color: white;
 }
 
@@ -44,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: flex-start;
-  background-color: rgba(71,125,73,1);
+  background-color: rgba(71, 125, 73, 1);
   margin-top: 1em;
 }
 
@@ -53,9 +52,9 @@ body {
 }
 
 hr {
-    border: none;
-    border-top: 0.25em double;
-    height: 0.25em;
+  border: none;
+  border-top: 0.25em double;
+  height: 0.25em;
 }
 
 .search {
@@ -73,11 +72,11 @@ hr {
   padding: 0.5em;
   width: 33%;
   border-radius: 3em;
-  border: 0.15em solid rgba(51,106,62);
+  border: 0.15em solid rgba(51, 106, 62);
   color: rgba(240, 146, 58, 1);
   text-align: center;
 }
-    
+
 #searchBar:focus {
   outline: none;
   border: 0.15em solid rgba(240, 146, 58, 1);
@@ -85,5 +84,5 @@ hr {
 }
 
 #searchBar:hover {
-  box-shadow: 0 0 1em rgba(33,33,33,.2); 
+  box-shadow: 0 0 1em rgba(33, 33, 33, 0.2);
 }
