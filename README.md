@@ -1,5 +1,5 @@
-# Benpage
-> **Name:** Benpage  
+# ben-page
+> **Name:** ben-page  
 > **Maintainer:** (None)
 
 ---
