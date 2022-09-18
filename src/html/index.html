@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <title>Ben Franklin Homepage</title>
+    <meta
+      name="description"
+      content="Homepage for Benjamin Franklin High School"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fix and point to correct css dir -->
     <link rel="stylesheet" href="../css/index.css" />
     <script src="../js/index.js" defer></script>
+    <!-- TODO: Favicon -->
   </head>
+
   <body>
-    <div class="header">
-      <ul>
-        <a href="index.html"><b>Home</b></a>
+    <!-- Header line, located in top right -->
+    <header>
+      <ul id="home">
+        <!-- Current page -->
+        <a href="./index.html">Home</a>
       </ul>
-      <ul>
-        <a href="settings.html">Settings</a>
+      <ul id="settings">
+        <a href="./settings.html">Settings</a>
       </ul>
-    </div>
+    </header>
 
+    <!-- Logo bar, located under header & has school logo -->
     <div class="logoBar">
-      <img id="logo" src="../../assets/logo.png" />
+      <a href="https://bfhsla.org">
+        <img id="logo" src="../../assets/logo.png" />
+      </a>
     </div>
 
-    <form class="search" action="https://google.com/search" method="GET">
+    <!-- HTML Form to make google search, should work with anything -->
+    <form class="searchBar" action="https://google.com/search" method="GET">
+      <!-- Used by google for target language -->
       <input name="hl" value="en" style="display: none" />
+      <!-- Search Query -->
       <input
         type="text"
         name="q"
         placeholder="Search with Google"
-        id="searchBar"
+        id="searchBox"
         autocomplete="off"
       />
       <input type="submit" style="display: none" />
     </form>
 
-    <div class="columns">
-      <div id="schedule">
-        <div id="colHeader">Today's Schedule:</div>
-        <hr />
-        <div id="colContent">(placeholder)</div>
+    <!-- Tripple-columned content -->
+    <div class="content">
+      <!-- Daily Schedule -->
+      <div id="schedule" class="column">
+        <div class="columnHeader">Schedule:</div>
+        <div class="columnContent" id="scheduleContent">
+          <!-- (Schedule HTML) -->
+        </div>
       </div>
-      <div id="icons">
-        <div id="colHeader">Buttons:</div>
-        <hr />
-        <div id="colContent">(placeholder)</div>
+
+      <!-- Buttons (/icons) to websites -->
+      <div id="buttons" class="column">
+        <div class="columnHeader">Buttons:</div>
+        <div class="columnContent" id="buttonsContent">
+          <!-- (Button HTML) -->
+        </div>
       </div>
-      <div id="links">
-        <div id="colHeader">Links:</div>
-        <hr />
-        <div id="colContent">(placeholder)</div>
+
+      <!-- Important Links(?) -->
+      <div id="links" class="column">
+        <div class="columnHeader">Links:</div>
+        <div class="columnContent" id="linkContent">
+          <!-- (Link HTML) -->
+        </div>
       </div>
     </div>
-
-    <div class="footer"></div>
   </body>
 </html>
