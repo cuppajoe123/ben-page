@@ -5,7 +5,10 @@
   "short_name": "Benpage",
   "description": "Benjamin Franklin High School New-Tab Page.",
   "icons": {},
-  "author": "Aeshus (Thomas) <87614336+Aeshus@users.noreply.github.com>",
+  "developer": {
+    "name": "BFHS-Open",
+    "url": "https://bfhs-open.org"
+  },
 
   "chrome_url_overrides": {
     "newtab": "src/html/index.html"
