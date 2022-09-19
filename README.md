@@ -1,8 +1,10 @@
 # ben-page
+
 > **Name:** ben-page  
 > **Maintainer:** (None)
 
 ---
+
 The Benjamin Franklin High School new-tab page extension.  
 It's pre-loaded on everyone's computers!
 
